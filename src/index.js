@@ -73,7 +73,19 @@ async function playRaceEngine(character1, character2) {
     let block = await getRandomBlock();
     console.log(`Bloco: ${block}`);
     }   
+
+    // roll the dices 
+    let diceResult1 = await rollDice()
+    let diceResult2 = await rollDice()
+
+    //teste de habilidade
+    let TotaltestSkill1 = 0;
+    let TotaltestSkill2 = 0;
+
 }
+
+
+
 
 (async function main() {
     console.log(`🏁🚨 Corrida entre ${player1.NOME} e ${player2.NOME} começando...\n`);
