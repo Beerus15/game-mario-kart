@@ -43,7 +43,11 @@ const player5 = {
 
 
 
-function rollDice(){
+async function rollDice(){
     return Math.floor(Math.random() * 6) + 1;
     
 }
+
+(async function main() {
+    console.log(`🏁🚨 Corrida entre ${player1.NOME} e ${player2.NOME} começando...\n`);
+})();
